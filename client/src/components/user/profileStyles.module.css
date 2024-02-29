@@ -1,0 +1,125 @@
+.container {
+    margin: 50px 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.profileContainer {
+    text-align: center;
+
+}
+
+.profileContainer img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 5px;
+}
+
+.heading {
+    width: 150px;
+    font-size: 1rem;
+    margin: 10px 10px 30px 0px;
+    padding: 8px;
+    text-align: center;
+    background-color: #11999E;
+    color: #ffffff;
+    box-shadow: 5px 5px 2px #66BFBF;
+}
+
+.editBtn {
+    position: absolute;
+    right: 100px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 80px 5px 5px;
+}
+
+.card {
+    display: flex;
+    margin: 5px
+}
+
+.postBtn {
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tag {
+    color: #11999E;
+}
+
+.content {
+    margin-left: 10px;
+    overflow: hidden;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+}
+
+.inputField {
+    width: 50%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 2px solid #E5E5E5;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.inputField:focus-visible {
+    outline: 2px solid #66BFBF;
+}
+
+.update {
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.postContainer {
+    display: flex;
+}
+
+.btnContainer {
+    display: flex;
+}
+
+@media (max-width:900px) {
+    .container {
+        margin: 50px 20px;
+    }
+
+    .editBtn {
+        right: 10px;
+    }
+
+    .inputField {
+        width: 50%;
+    }
+
+    .postContainer {
+        display: block;
+
+    }
+
+    .postBtn {
+        padding: 5px;
+        width: 80px;
+        height: 40px;
+        margin-top: 10px;
+    }
+}

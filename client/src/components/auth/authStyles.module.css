@@ -1,0 +1,73 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 60vh;
+    padding: 30px;
+}
+
+.header {
+    color: #11999E;
+    padding: 5px;
+    margin-bottom: 3px
+}
+
+.inputField {
+    width: 250px;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px;
+    border: 2px solid #E5E5E5;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFFCFB;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.inputField:focus-visible {
+    outline: 2px solid #66BFBF;
+}
+
+.submitButton {
+    width: 290px;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: #11999E;
+    color: #ffffff;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.submitButton:hover {
+    background-color: #66BFBF;
+}
+
+.errorMessage {
+    color: red;
+    margin: 0 15px
+}
+
+.accountInfo {
+    margin: 10px 20px
+}
+
+.link {
+    text-decoration: none;
+    color: #11999E;
+}
+
+.link:hover {
+    color: #66BFBF;
+}
+
+@media (max-width:900px) {
+    .container h1 {
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,55 @@
+.container {
+    margin: 50px 150px;
+}
+
+.title {
+    width: 95%;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 2px solid #E5E5E5;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFFCFB;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.title:focus-visible {
+    outline: 2px solid #66BFBF;
+}
+
+.quillContainer {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    margin: 10px 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.imageInput {
+    margin: 0px 10px;
+}
+
+.image {
+    height: 200px;
+    width: 200px;
+    margin: 10px 10px 10px 0px;
+}
+
+.submitButton {
+    width: 200px;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+
+.error {
+    color: red;
+    margin-left: 10px;
+}
+
+@media (max-width:900px) {
+    .container {
+        margin: 20px
+    }
+}

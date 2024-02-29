@@ -1,0 +1,303 @@
+.tagContainer {
+    margin: 30px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    margin: 30px;
+    padding: 30px;
+}
+
+.rightContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 200px;
+}
+
+.tagline {
+    font-size: 2.5rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-right: 200px;
+}
+
+.highlight {
+    color: #11999E
+}
+
+.heading {
+    width: 150px;
+    font-size: 1rem;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    background-color: #11999E;
+    color: #ffffff;
+    box-shadow: 5px 5px 2px #66BFBF;
+}
+
+.trending {
+    display: flex;
+
+}
+
+.trendingLeft {
+    margin: 10px;
+}
+
+.trendingRight {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.featured {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: fit-content;
+
+}
+
+.featuredLeft {
+    width: 70%;
+    height: 300px;
+    margin-right: 5px;
+}
+
+.featuredRight {
+    position: relative;
+    height: 320px;
+    width: 300px;
+    right: 0;
+}
+
+.topImage {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.bottomImage {
+    position: absolute;
+    top: 150px;
+    right: 150px;
+    z-index: 2;
+}
+
+.featuredBottom {
+    display: flex;
+}
+
+.featuredBottom img {
+    float: left;
+    margin: 5px;
+    height: 250px;
+    width: 220px;
+}
+
+.content {
+    margin-left: 205px;
+    padding-left: 3px;
+    overflow: hidden;
+}
+
+.button {
+    width: 160px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: #11999E;
+    color: #ffffff;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.button:hover {
+    background-color: #66BFBF;
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.trendingLeft img {
+    height: 350px;
+    width: 650px;
+}
+
+.recentLeft {
+    margin: 10px;
+    height: 700px;
+    width: 700px;
+}
+
+.smallImage {
+    float: left;
+    height: 200px;
+    width: 200px;
+}
+
+.recent {
+    display: flex;
+}
+
+.recentRight {
+    margin: 10px;
+
+}
+
+h1,
+h3,
+h4 {
+    margin: 0px 0px 0px;
+}
+
+.tag {
+    color: #11999E;
+}
+
+.tag:hover {
+    color: #66BFBF;
+}
+
+.topImage img {
+    height: 200px;
+    width: 200px;
+}
+
+.bottomImage img {
+    height: 150px;
+    width: 150px;
+}
+
+.trendingBottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trendingBottom img {
+    height: 250px;
+    width: 320px;
+}
+
+.recentImg {
+    height: 400px;
+    width: 700px;
+}
+
+.recentR {
+    display: flex;
+    flex-direction: column;
+}
+
+.trendingContent {
+    padding-right: 5px;
+}
+
+@media (max-width:900px) {
+    .tagline {
+        font-size: 1.5rem;
+        margin-right: 20px;
+    }
+
+    h1,
+    h3 {
+        font-size: 1rem;
+    }
+
+    .rightContainer {
+        margin-right: 10px;
+    }
+
+    .topImage img {
+        height: 180px;
+        width: 180px;
+    }
+
+    .bottomImage img {
+        height: 120px;
+        width: 120px;
+    }
+
+    .bottomImage {
+        top: 100px;
+        right: 100px;
+    }
+
+    .featuredLeft {
+        width: 50%;
+        height: 250px;
+
+    }
+
+    .container {
+        margin: 5px;
+        padding: 0px;
+    }
+
+    .featuredRight {
+        width: 200px;
+        height: 220px;
+    }
+
+    .truncatedContent {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        -webkit-line-clamp: 4;
+        margin: -2px;
+    }
+
+    .featuredBottom {
+        flex-direction: column;
+    }
+
+    .featuredBottom img {
+        height: 200px;
+        width: 200px;
+    }
+
+    .trending {
+        flex-direction: column;
+    }
+
+    .trendingLeft img {
+        height: 300px;
+        width: 450px;
+
+    }
+
+    .trendingBottom img {
+        height: 200px;
+        width: 200px;
+    }
+
+    .trendingBottom {
+        flex-direction: column;
+    }
+
+    .trendingContent {
+        margin-left: 10px;
+    }
+
+    .trendingCard {
+        display: flex;
+        margin: 5px;
+        justify-content: center;
+    }
+
+    .recentLeft {
+        display: none;
+    }
+}

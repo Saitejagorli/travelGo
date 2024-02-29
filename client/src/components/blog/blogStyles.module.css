@@ -1,0 +1,34 @@
+.container {
+    margin: 20px 100px
+}
+
+.postImg {
+    width: 100%;
+    height: 400px;
+}
+
+.loader {
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    font-size: 1.5rem;
+}
+
+.body {
+    padding: 10px;
+
+}
+
+.container p {
+    line-height: 1.5;
+}
+
+@media (max-width:900px) {
+    .container {
+        margin: 10px;
+    }
+}
