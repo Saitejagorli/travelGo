@@ -9,13 +9,13 @@ const Footer = () => {
       <div className="footer-content">
         <p>&copy; {date.getFullYear()} travelGo. All rights reserved.</p>
         <div className="social-icons">
-          <a>
+          <a href="https://www.instragram.com">
             <FaInstagram />
           </a>
-          <a>
+          <a href="https://www.facebook.com/">
             <FaFacebook />
           </a>
-          <a>
+          <a href="https://twitter.com/">
             <FaXTwitter />
           </a>
         </div>

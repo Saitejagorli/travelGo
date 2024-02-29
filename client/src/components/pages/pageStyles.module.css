@@ -14,7 +14,10 @@
     padding-left: 2px;
     line-height: 1.5;
 }
-
+.container a{
+    text-decoration: none;
+    color: #11999E;
+}
 .link {
     text-decoration: none;
     color: #11999E;

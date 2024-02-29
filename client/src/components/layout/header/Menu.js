@@ -75,6 +75,7 @@ const Menu = () => {
                   user?.profilePhoto ? `${backendUrl}${user.profilePhoto}` : ""
                 }
                 className="profile"
+                alt="img"
               />
             ) : (
               <LuUserCircle2 />
@@ -145,6 +146,7 @@ const Menu = () => {
                           : ""
                       }
                       className="profile"
+                      alt="img"
                     />
                   ) : (
                     <LuUserCircle2 />

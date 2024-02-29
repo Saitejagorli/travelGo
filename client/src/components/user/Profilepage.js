@@ -49,7 +49,7 @@ const Profile = () => {
         });
         if (response.ok) {
           const data = await response.json();
-          if (user._id == data._id) {
+          if (user._id === data._id) {
             setUser(data);
           }
           setUserData(data);

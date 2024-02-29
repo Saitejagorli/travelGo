@@ -28,10 +28,17 @@ const Contact = () => {
         Connect with us on social media for daily doses of travel inspiration,
         stunning visuals, and the latest updates:
         <br />
-        <FaInstagram /> &nbsp;Instagram
+        <a href="https://www.instragram.com">
+          <FaInstagram /> &nbsp;Instagram
+        </a>
         <br />
-        <FaXTwitter /> &nbsp;Twitter <br />
-        <FaFacebook /> &nbsp;Facebook
+        <a href="https://www.facebook.com/">
+          <FaXTwitter /> &nbsp;Twitter
+        </a>
+        <br />
+        <a href="https://www.facebook.com/">
+          <FaFacebook /> &nbsp;Facebook
+        </a>
       </p>
       <h2>Let's Make Memories Together</h2>
       <p>
