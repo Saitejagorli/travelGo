@@ -14,10 +14,7 @@ const URL = `mongodb+srv://${process.env.USER_NAME}:${process.env.PASSWORD}@trav
 const app = express();
 
 app.use(
-  cors({
-    origin: process.env.FRONTEND_URL,
-    credentials: true,
-  })
+  cors()
 );
 
 app.use(express.json());

@@ -1,7 +1,7 @@
 import React, { useContext, createContext, useState, useEffect } from "react";
 
 const AuthContext = createContext();
-const backendUrl = "https://travelgo-backend-bvsk.onrender.com";
+const backendUrl = "http://localhost:8000";
 
 const AuthProvider = ({ children }) => {
   const [isAuthenticated, setAuthenticated] = useState(false);
