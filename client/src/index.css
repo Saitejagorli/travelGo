@@ -10,6 +10,7 @@ main {
 }
 
 button {
+  cursor: pointer;
   background-color: #11999E;
   color: #ffffff;
   border: none;
